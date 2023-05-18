@@ -43,6 +43,7 @@ export default function Home() {
     <>
       <Head>
         <title>{`${title}`}</title>
+        <meta property="og:title" content={title} />
         <meta name="description" content={seoData?.description} />
       </Head>
       <main
